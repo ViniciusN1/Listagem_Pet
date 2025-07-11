@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -59,3 +60,66 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
+=======
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 40px;
+}
+
+/* Div do formulário */
+.cabecalho {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  width: 300px;
+}
+
+/* Div da lista */
+.listagem {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  width: 300px;
+}
+
+.NomeSD {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+#vaiMudar label,
+#vaiMudar input,
+#vaiMudar button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#vaiMudar input {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+#vaiMudar button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+>>>>>>> 11394576cea2b6689014c7d348dcd860a2c0db47
